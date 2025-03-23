@@ -139,6 +139,15 @@ button {
   font-size: 1.2rem;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Pour qu'elle prenne toute la largeur de l'écran */
+  z-index: 1000;
+  background-color: #fff;
+}
+
 .btn {
   display: block;
   padding: 0.8em 1.4em;
