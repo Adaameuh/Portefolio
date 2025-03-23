@@ -391,6 +391,9 @@ main {
   .nav__list-item {
     margin: 0.5em 0;
   }
+  .project:nth-child(2) {
+  margin: 0 auto;
+  }
 
   .nav__hamburger {
     display: flex;
