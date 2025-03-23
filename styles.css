@@ -1,6 +1,6 @@
 /*===============
   global styles
-==============*/
+===============*/
 
 * {
   padding: 0;
@@ -401,10 +401,7 @@ main {
     align-items: flex-start;
     margin-top: 2em;
   }
-  .project:nth-child(2) {
-  margin: 0 auto;
-  }
-	
+
   .footer {
     padding: 2em;
     margin-top: 3em;
