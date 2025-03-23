@@ -53,7 +53,7 @@ body {
   justify-content: center; /* Centre les éléments */
 }
 
-.project:nth-child(4) { /* Projet Parking */
+.project:nth-child(3) { /* Projet Parking */
   grid-column: span 2; /* S'étend sur 2 colonnes */
   text-align: center; /* Centre le texte */
 }
