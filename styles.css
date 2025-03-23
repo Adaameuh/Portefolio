@@ -45,6 +45,19 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  grid-template-rows: auto auto; /* 2 lignes */
+  gap: 2em;
+  justify-content: center; /* Centre les éléments */
+}
+
+.project:nth-child(4) { /* Projet Parking */
+  grid-column: span 2; /* S'étend sur 2 colonnes */
+  text-align: center; /* Centre le texte */
+}
+
 ::-moz-selection {
   background: var(--clr-primary);
   color: var(--clr-bg);
